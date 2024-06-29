@@ -636,14 +636,13 @@ hr {
     .system-one,
     .tour {
         flex-direction: column;
-        margin: 10px;
+        /* margin: 10px; */
     }
 
     .nav-content ul {
         flex-direction: column;
         padding: 10px;
     }
-
     .nav-content a {
         color: black;
         margin: 10px 0px;
@@ -661,10 +660,18 @@ hr {
 
     .simple-conteinar,
     .address,
-    .nav-content {
+    .nav-content,
+    .footer
+    {
         width: 100%;
     }
-
+    .footer{
+        padding: 33px;
+    }
+    /* .address{
+        width: 335px;
+        height: 289px;
+    } */
     .explore-content {
         margin: 10px;
         padding: 10px;
@@ -689,12 +696,16 @@ hr {
     }
 
     .tour-content,
-    .explore,
     .tour-img img {
         margin: 10px;
-
     }
-
+    .tour-plane-two{
+         padding-top: 30px;
+    }
+    #two-id{
+        margin-top: 40px;
+    }
+    
     .tour-img img {
         width: 405px;
         height: 342px;
@@ -762,8 +773,13 @@ hr {
 /* .tour-plan-content, */
 .price{
 width: 100%;
-margin: 10px;
-padding: 10px;
+margin: 10px auto;
+/* padding: 10px; */
+border: none;
+background-color: ;
+}
+.address-info img{
+    margin-bottom: 5px;
 }
 
 /* #two-id img{
@@ -786,6 +802,12 @@ padding: 10px;
     background-repeat: no-repeat;
 
 }
+.Kashmir,
+.Srilanka,
+.North-America
+{
+    width: auto;
+}
 
 .video video {
     width: 350px;
@@ -802,6 +824,11 @@ padding: 10px;
 
 .box-title {
     padding: 10px;
+}
+.address-info{
+    width: 385px;
+    height: 289px;
+    margin: 10px auto;
 }
 
 .tour-plane-one {
