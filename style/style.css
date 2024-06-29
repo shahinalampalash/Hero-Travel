@@ -619,9 +619,11 @@ body {
 }
 
 hr {
-    margin: 20px 400px;
+    margin: 20px auto;
 }
-
+.footer hr{
+    margin: 20px 280px;
+}
 
 
 /* mobile responsive */
@@ -867,6 +869,9 @@ padding-right: 10px;
 
 .tour-plan-price {
     margin-bottom: 15px;
+}
+hr {
+    margin: 10px auto;
 }
 
 }
